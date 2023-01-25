@@ -1,6 +1,5 @@
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
-import logoImage from "../../assets/images/lws-logo-dark.svg";
 import { userLoggedOut } from "../../features/auth/authSlice";
 
 export default function Navigation() {
@@ -15,11 +14,9 @@ export default function Navigation() {
             <div className="max-w-7xl mx-auto">
                 <div className="flex justify-between h-16 items-center">
                     <Link to="/">
-                        <img
-                            className="h-10"
-                            src={logoImage}
-                            alt="Learn with Sumit"
-                        />
+                        <Link to="/">
+                            <h1 className="text-4xl font-bold text-violet-700 text-center"><i class="fa-brands fa-rocketchat"></i> Chat</h1>
+                        </Link>
                     </Link>
                     <ul>
                         <li className="text-white">
