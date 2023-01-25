@@ -15,7 +15,7 @@ export default function Navigation() {
                 <div className="flex justify-between h-16 items-center">
                     <Link to="/">
                         <Link to="/">
-                            <h1 className="text-4xl font-bold text-violet-700 text-center"><i class="fa-brands fa-rocketchat"></i> Chat</h1>
+                            <h1 className="text-3xl font-bold text-white text-center"><i class="fa-brands fa-rocketchat"></i> Chat</h1>
                         </Link>
                     </Link>
                     <ul>
